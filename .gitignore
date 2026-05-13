@@ -37,9 +37,15 @@ env/
 *~
 .DS_Store
 
-# Project-specific output folders
-# bin/
-#result/
+# Project-specific output folders - track structure but ignore contents
+bin/btc/*
+!bin/btc/.gitkeep
+bin/rle/*
+!bin/rle/.gitkeep
+result/BTC/*
+!result/BTC/.gitkeep
+result/RLE/*
+!result/RLE/.gitkeep
 
 # Generated files
 *.tiff
