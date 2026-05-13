@@ -37,15 +37,12 @@ env/
 *~
 .DS_Store
 
-# Project-specific output folders - track structure but ignore contents
+# Project-specific output folders
+# bin/ folder - ignore .bin files (keep structure only)
 bin/btc/*
 !bin/btc/.gitkeep
 bin/rle/*
 !bin/rle/.gitkeep
-result/BTC/*
-!result/BTC/.gitkeep
-result/RLE/*
-!result/RLE/.gitkeep
 
 # Generated files
 *.tiff
@@ -62,6 +59,10 @@ folder_test.tiff
 unit_test.tiff
 unit_test_rle.tiff
 unit_test_btc.tiff
+
+# But track decompressed results
+!result/BTC/*.tiff
+!result/RLE/*.tiff
 
 # Cache
 .pytest_cache/
