@@ -60,9 +60,8 @@ unit_test.tiff
 unit_test_rle.tiff
 unit_test_btc.tiff
 
-# But track decompressed results
-!result/BTC/*.tiff
-!result/RLE/*.tiff
+# Result folder - ignore (local only)
+result/
 
 # Cache
 .pytest_cache/
