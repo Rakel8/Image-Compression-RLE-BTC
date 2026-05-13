@@ -1,12 +1,12 @@
-"""Lossy and lossless grayscale image compression for practicum work.
+"""Kompresi gambar skala abu-abu dengan dan tanpa kehilangan data untuk pekerjaan praktikum.
 
-This script provides two custom image compression workflows:
+Skrip ini menyediakan dua alur kerja kompresi gambar khusus:
 
-- BTC (Block Truncation Coding) for lossy compression
-- RLE (Run-Length Encoding) for lossless compression
+- BTC (Block Truncation Coding) untuk kompresi dengan kehilangan data
+- RLE (Run-Length Encoding) untuk kompresi tanpa kehilangan data
 
-Both work on grayscale images and save their own binary container format.
-The script also includes batch benchmarking for a folder of images.
+Keduanya bekerja pada gambar skala abu-abu dan menyimpan format kontainer biner masing-masing.
+Skrip ini juga menyertakan pengujian batch untuk folder gambar.
 """
 
 from __future__ import annotations
