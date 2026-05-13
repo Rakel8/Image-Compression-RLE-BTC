@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Project-specific output folders
+# bin/
+#result/
+
+# Generated files
+*.tiff
+*.tif
+*.jpg
+*.jpeg
+*.png
+*.gif
+sample_image.tiff
+demo_btc_output.tiff
+demo_rle_output.tiff
+path_test.tiff
+folder_test.tiff
+unit_test.tiff
+unit_test_rle.tiff
+unit_test_btc.tiff
+
+# Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# System files
+Thumbs.db
+.DS_Store
+
+# Large dataset files (optional - uncomment if needed)
+# dataset_tiff/
+# dataset_jpg/
+# dataset_png/
